@@ -18,7 +18,7 @@
                     <div class="flex items-center">
                         <div class="shrink-0">
                             <img class="size-8"
-                                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                                src="images/bg-flag.png"
                                 alt="Your Company">
                         </div>
                         <div class="hidden md:block">
@@ -52,12 +52,12 @@
                             <div class="relative ml-3">
                                 <div>
                                     <button type="button"
-                                        class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden"
+                                        class="relative flex max-w-xs items-center rounded-full bg-white-800 text-sm focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden"
                                         id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                                         <span class="absolute -inset-1.5"></span>
                                         <span class="sr-only">Open user menu</span>
-                                        <img class="size-8 rounded-full"
-                                            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        <img class="size-8 rounded-full bg-white-300"
+                                            src="images/userIcon.svg"
                                             alt="">
                                     </button>
                                 </div>
@@ -106,12 +106,11 @@
                     <div class="flex items-center px-5">
                         <div class="shrink-0">
                             <img class="size-10 rounded-full"
-                                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                alt="">
+                                src="{{asset('images/userIcon.svg')}}" alt="">
                         </div>
                         <div class="ml-3">
-                            <div class="text-base/5 font-medium text-white">Tom Cook</div>
-                            <div class="text-sm font-medium text-gray-400">tom@example.com</div>
+                            <div class="text-base/5 font-medium text-white">Stefan Chervenkov</div>
+
                         </div>
                         <button type="button"
                             class="relative ml-auto shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
@@ -131,7 +130,7 @@
 
         <header class="bg-white shadow-sm">
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{$heading}}</h1>
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ $heading }}</h1>
             </div>
         </header>
         <main>
